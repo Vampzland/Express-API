@@ -19,6 +19,13 @@ const bookSchema = new mongoose.Schema({
 })
 
 const Book = mongoose.model('Book', bookSchema)
+
+function validateTitle(title){
+    const schema = {
+        title: Joi.string().min(5).required()
+    }
+    return Joi.validate({title}, schema)
+}
 function  validateBook(book) {
     const schema = {
         title: Joi.string().min(5).required(),
@@ -35,4 +42,4 @@ const verify = (name) => {
 
 
 
-module.exports = {verify, Book, validateBook}
+module.exports = {verify, Book, validateBook, validateTitle}
