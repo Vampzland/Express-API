@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 const app = express()
 const port = 5000
-mongoose.connect('mongodb://localhost/narouBookstore')
+mongoose.connect('mongodb://localhos/narouBookstore')
 .then(() => console.log('Connected to the db...'))
 .catch(err => console.log(`Couldnt connect to the db ${err}`))
 
