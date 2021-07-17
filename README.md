@@ -1,3 +1,3 @@
 read me
 contributing
-test slack notification not working
+slack notification on PR integrated
