@@ -1,3 +1,3 @@
 read me
 contributing
-test slack notification
+test slack notification not working
