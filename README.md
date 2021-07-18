@@ -1,4 +1,4 @@
 read me
 contributing
-test slack notification not working
-unsubscribe
+slack notification on PR integrated
+Unsubscribed
