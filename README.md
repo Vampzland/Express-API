@@ -8,3 +8,4 @@ solve conflict with merge
 merging
 merge conflict
 rebase conflict
+rebasing
